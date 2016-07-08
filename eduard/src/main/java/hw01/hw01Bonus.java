@@ -3,22 +3,22 @@ package hw01;
 public class hw01Bonus {
     public static void main(String[] args) {
 
-        byte i = 127;
-        byte b7 = (byte) (i % 2);
-        i = (byte) (i / 2);
-        byte b6 = (byte) (i % 2);
-        i = (byte) (i / 2);
-        byte b5 = (byte) (i % 2);
-        i = (byte) (i / 2);
-        byte b4 = (byte) (i % 2);
-        i = (byte) (i / 2);
-        byte b3 = (byte) (i % 2);
-        i = (byte) (i / 2);
-        byte b2 = (byte) (i % 2);
-        i = (byte) (i / 2);
-        byte b1 = (byte) (i % 2);
-        i = (byte) (i / 2);
-        byte b0 = (byte) (i % 2);
+        int i = 127;
+        int b7 = i % 2;
+        i = i / 2;
+        int b6 = i % 2;
+        i =  i / 2;
+        int b5 = i % 2;
+        i = i / 2;
+        int b4 = i % 2;
+        i = i / 2;
+        int b3 = i % 2;
+        i = i / 2;
+        int b2 = i % 2;
+        i = i / 2;
+        int b1 = i % 2;
+        i = i / 2;
+        int b0 = i % 2;
 
         System.out.print(b0);
         System.out.print(b1);

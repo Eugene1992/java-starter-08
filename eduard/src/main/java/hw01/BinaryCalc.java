@@ -2,14 +2,27 @@ package hw01;
 
 public class BinaryCalc {
     public static void main(String[] args) {
-        int i = 1010001;
-        double i1 = 1 * Math.pow(2, 6);
-        double i2 = 0 * Math.pow(2, 5);
-        double i3 = 1 * Math.pow(2, 4);
-        double i4 = 0 * Math.pow(2, 3);
-        double i5 = 0 * Math.pow(2, 2);
-        double i6 = 0 * Math.pow(2, 1);
-        double i7 = 1 * Math.pow(2, 0);
-        System.out.println(i1 + i2 + i3 + i4 + i5 + i6 + i7);
+        int i = 111_1111;
+        int b0, b1, b2, b3, b4, b5, b6, b7, res = 0;
+        b7 = i / 10000000;
+        b6 = i / 1000000 % 10;
+        b5 = i / 100000 % 10;
+        b4 = i / 10000 % 10;
+        b3 = i / 1000 % 10;
+        b2 = i / 100 % 10;
+        b1 = i / 10 % 10;
+        b0 = i % 10;
+        System.out.print(b7);
+        System.out.print(b6);
+        System.out.print(b5);
+        System.out.print(b4);
+        System.out.print(b3);
+        System.out.print(b2);
+        System.out.print(b1);
+        System.out.print(b0);
+
+        res = res + b0 + b1 * 2 + b2 * 4 + b3 * 8 + b4 * 16 + b5 * 32 + b6 * 64 + b7 * 128;
+        System.out.println();
+        System.out.println(res);
     }
 }
