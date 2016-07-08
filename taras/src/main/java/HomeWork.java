@@ -90,7 +90,7 @@ public class HomeWork {
         System.out.println(o2);
 
         //Бонус
-        int p = 78;
+        int p = 100;
         int p1 = 2;
         int f = p / p1;
         int f1 = f / p1;
@@ -112,8 +112,7 @@ public class HomeWork {
         System.out.print(p10);
         System.out.print(p9);
         System.out.print(p8);
-        System.out.print(p7);
-        System.out.print(p6);
+        System.out.print(p7 + " " + p6);
         System.out.print(p5);
         System.out.print(p4);
         System.out.print(p3);
