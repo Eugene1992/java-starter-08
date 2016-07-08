@@ -117,7 +117,6 @@ public class HomeWork {
         System.out.print(p5);
         System.out.print(p4);
         System.out.print(p3);
-
     }
 
 }
