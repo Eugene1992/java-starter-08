@@ -28,7 +28,6 @@ public class Classwork3 {
 
         System.out.println();
         System.out.println(res);
-
     }
 
 }
