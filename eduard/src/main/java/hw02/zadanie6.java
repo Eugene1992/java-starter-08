@@ -11,7 +11,6 @@ public class zadanie6 {
 
         if (d == 0) {
             e = 1 * (b / (2 * a));
-            e = Math.round(e);
             System.out.println("Есть один квадратный корень равный " + e);
         } else {
             if (d > 0) {
