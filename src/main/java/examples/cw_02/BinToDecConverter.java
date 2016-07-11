@@ -5,7 +5,7 @@ package examples.cw_02;
  */
 public class BinToDecConverter {
     public static void main(String[] args) {
-        int i = 1101_0011;
+        int i = 11010011;
 
         int b0, b1, b2, b3, b4, b5, b6, b7, res = 0;
 

@@ -6,7 +6,7 @@ package examples.cw_02;
 public class TernarOperator {
     public static void main(String[] args) {
         int i;
-        int k = 10;
+        int k = 20;
 
         if (k == 20){
             if (k < 10) {
@@ -19,7 +19,9 @@ public class TernarOperator {
         }
 
 
-        i = k == 20 ? k < 10 ? 2 : 1 : 0;
+        i = k == 20 ? 1 : 0;
+
+        System.out.println(i);
 
 
     }
