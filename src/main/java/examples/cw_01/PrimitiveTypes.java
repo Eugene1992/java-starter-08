@@ -1,4 +1,4 @@
-package examples.cw_02;
+package examples.cw_01;
 
 public class PrimitiveTypes {
     public static void main(String[] args) {
