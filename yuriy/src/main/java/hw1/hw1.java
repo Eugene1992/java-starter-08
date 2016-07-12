@@ -1,3 +1,5 @@
+package hw1;
+
 /**
  * Created by Юра on 7/8/2016.
  */
@@ -80,8 +82,16 @@ public class hw1 {
         System.out.println(n2);
 
         // Assign BONUS
-        int i = 103;
-        int i1 = 2;
+        int i, i1, b;
+        String res = "";
+        i = 103;
+        i1 = 2;
+
+
+        while (i != 1){
+            b = i % 2;
+            System.out.println(b);
+        }
 
         int d = i / i1;
         int db1 = d / i1;
@@ -108,6 +118,8 @@ public class hw1 {
         System.out.print(i5);
         System.out.print(i4);
         System.out.print(ib3);
+
+
     }
 
 }
