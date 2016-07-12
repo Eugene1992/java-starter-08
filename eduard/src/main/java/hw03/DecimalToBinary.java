@@ -1,9 +1,11 @@
-import java.util.Scanner;
+package hw03;
+
+//import java.util.Scanner;
 
 public class DecimalToBinary {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int a = scan.nextInt();
+    public static void main(int a) {
+        //Scanner scan = new Scanner(System.in);
+        //int a = scan.nextInt();
         int b;
         String res = "";
         while (a != 0) {
