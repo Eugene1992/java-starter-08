@@ -13,6 +13,6 @@ public class DecimalToBinary {
             res = b + res;
             a = a / 2;
         }
-        System.out.println(res);
+        System.out.println("Перевод из 10й в 2-ую " + res);
     }
 }
