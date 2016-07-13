@@ -1,16 +1,18 @@
 import java.util.Scanner;
 
-public class DecimalToBinary {
+public class HexToBinary {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int a = scan.nextInt();
-        int b;
+        double a = scan.nextDouble();
+        String b = "0123456789ABCDEF";
         String res = "";
         while (a != 0) {
-            b = a % 2;
-            res = b + res;
-            a = a / 2;
+            switch (b = String.valueOf(a % 2)) {
+
+            }
+
         }
-        System.out.println(res);
+
     }
+
 }

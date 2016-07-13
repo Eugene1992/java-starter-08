@@ -1,3 +1,5 @@
+package hw2;
+
 /**
  * Created by shast on 7/11/2016.
  */
