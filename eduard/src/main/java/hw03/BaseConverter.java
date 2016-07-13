@@ -10,9 +10,9 @@ public class BaseConverter {
         System.out.println("Введите число");
         num = scan.nextInt();
         System.out.println("Выберите базу: ");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
+        System.out.println("Для выбора двоичной, введите b");
+        System.out.println("Для выбора восьмеричной, введите o");
+        System.out.println("Для выбора шестнадцатеричной, введите h");
 
     }
 }

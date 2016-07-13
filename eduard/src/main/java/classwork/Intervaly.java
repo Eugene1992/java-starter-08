@@ -7,7 +7,7 @@ public class Intervaly {
         Scanner scan = new Scanner(System.in);
         int e;
         e = scan.nextInt();
-        for (int i = 5; i < 100; i++) {
+        for (int i = 5; i <= 100; i++) {
             if (i % e != 0) continue;
             System.out.println(i);
         }
