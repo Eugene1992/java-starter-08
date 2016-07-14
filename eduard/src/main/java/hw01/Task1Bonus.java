@@ -1,6 +1,6 @@
 package hw01;
 
-public class hw01Bonus {
+public class Task1Bonus {
     public static void main(String[] args) {
 
         int i = 127;

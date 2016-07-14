@@ -2,7 +2,7 @@ package classwork;
 
 import java.util.Scanner;
 
-public class Intervaly {
+public class Intervals {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int e;

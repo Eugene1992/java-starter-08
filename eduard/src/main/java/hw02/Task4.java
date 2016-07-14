@@ -2,7 +2,7 @@ package hw02;
 
 import java.util.Scanner;
 
-public class zadanie4 {
+public class Task4 {
     public static void main(String[] args) {
         /* Для ввода с консоли
 

@@ -1,6 +1,6 @@
 package hw02;
 
-public class zadanie6 {
+public class Task6 {
     public static void main(String[] args) {
         double a, b, c, d, e, f, g;
         a = 1;
