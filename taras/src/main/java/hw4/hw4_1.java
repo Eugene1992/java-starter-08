@@ -4,30 +4,41 @@ package hw4;
  * Created by Тарас on 13.07.2016.
  */
 public class Hw4_1 {
+    //Chess Board
     public static void main(String[] args) {
-        for (int a = 1; a < 5; a++) {
-            for (int b = 1; b < 5; b++) {
-                for (int c = 1; c < 5; c++) {
-                    for (int i = 1; i < 5; i++) {
+        int a , b, c, i, d;
+        a = 1;
+        b = 1;
+        c = 1;
+        i = 1;
+        d = 1;
+        chessBoard(a, b, c, i, d);
+    }
+    static int chessBoard(int a, int b, int c, int i, int d){
+        for (int q = a; q < 5; q++) {
+            for (int w = b; w < 5; w++) {
+                for (int e = c; e < 5; e++) {
+                    for (int r = i; r < 5; r++) {
                         System.out.print("Ж ");
                     }
-                    for (int d = 1; d < 5; d++) {
+                    for (int t = d; t < 5; t++) {
                         System.out.print("- ");
                     }
                 }
                 System.out.println();
             }
-            for (int b = 1; b < 5; b++) {
-                for (int c = 1; c < 5; c++) {
-                    for (int i = 1; i < 5; i++) {
+            for (int w = b; w < 5; w++) {
+                for (int e = c; e < 5; e++) {
+                    for (int r = i; r < 5; r++) {
                         System.out.print("- ");
                     }
-                    for (int d = 1; d < 5; d++) {
+                    for (int t = d; t < 5; t++) {
                         System.out.print("Ж ");
                     }
                 }
                 System.out.println();
             }
         }
+        return a;
     }
 }
