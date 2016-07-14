@@ -1,6 +1,6 @@
 package hw01;
 
-public class hw01 {
+public class Task1 {
     public static void main(String[] args) {
         /*
         Инициализировать переменную типа byte результатом суммы двух любых чисел

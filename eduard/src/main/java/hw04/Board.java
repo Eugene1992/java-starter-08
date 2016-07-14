@@ -2,7 +2,7 @@ package hw04;
 
 import java.util.Scanner;
 
-public class Doska {
+public class Board {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Задайте размер доски: ");

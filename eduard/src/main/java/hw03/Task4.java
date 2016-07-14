@@ -1,10 +1,9 @@
 package hw03;
 
-public class Zadanie3 {
+public class Task4 {
     public static void main(String[] args) {
-        for(int i = 90; i >= 5; i = i - 5) {
+        for(int i = 2; i <= 1_048_576; i = i * 2) {
             System.out.print(i + " ");
         }
     }
-
 }
