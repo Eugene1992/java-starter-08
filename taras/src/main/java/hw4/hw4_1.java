@@ -3,7 +3,7 @@ package hw4;
 /**
  * Created by Тарас on 13.07.2016.
  */
-public class hw4_1 {
+public class Hw4_1 {
     public static void main(String[] args) {
         for (int a = 1; a < 5; a++) {
             for (int b = 1; b < 5; b++) {
