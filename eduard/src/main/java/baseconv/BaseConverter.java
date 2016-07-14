@@ -11,7 +11,5 @@ public class BaseConverter {
         System.out.println("Для выбора двоичной, введите b");
         System.out.println("Для выбора восьмеричной, введите o");
         System.out.println("Для выбора шестнадцатеричной, введите h");
-        //class baseconv.DecimalToBinary();
-
     }
 }
