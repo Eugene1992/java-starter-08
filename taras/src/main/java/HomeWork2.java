@@ -6,36 +6,66 @@ import java.util.Scanner;
 public class HomeWork2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int i, i1;
+        int i;
         i = scan.nextInt();
-        i1 = i;
+        parityNumbers(i);
+        double i4, i5;
+        i4 = scan.nextDouble();
+        i5 = scan.nextDouble();
+        comparison (i4, i5);
+        double q1, q2, q3;
+        q1 = scan.nextDouble();
+        q2 = scan.nextDouble();
+        q3 = scan.nextDouble();
+        bigger (q1, q2, q3);
+        int i1, i2, i3, i6, a3, b3, c3, d3;
+        System.out.print("Введіть перше число: ");
+        i1 = scan.nextInt();
+        System.out.print("Введіть друге число: ");
+        i2 = scan.nextInt();
+        System.out.print("Введіть третє число: ");
+        i3 = scan.nextInt();
+        System.out.print("Введіть четверте число: ");
+        i6 = scan.nextInt();
+        System.out.println();
+        secondNumber(i1, i2, i3, i6);
+        double a6, b6, c6;
+        a6 = 6.45;
+        b6 = 5.21;
+        c6 = 3.33;
+        quadraticEquation(a6, b6, c6);
+    }
+        static int parityNumbers(int i){
+        int i1 = i;
         int i3 = i1 % 2;
         if (i3 < 1) {
             System.out.println("число парне");
         } else {
             System.out.println("число непарне");
         }
+            return i;
+    }
 
         //Завдання №3
-        double i4, i5, a1, b1, c1, d1;
-        i4 = scan.nextDouble();
-        i5 = scan.nextDouble();
+        static double comparison(double i4, double i5){
+            double a1,b1,c1,d1;
+            a1 = i4;
+            b1 = i5;
 
-        a1 = i4;
-        b1 = i5;
-
-        c1 = 10 - i4;
-        d1 = i5 - 10;
-        if (c1 < d1) {
-            System.out.println(i4);
-        } else {
-            System.out.println(i5);
+            c1 = 10 - i4;
+            d1 = i5 - 10;
+            if (c1 < d1) {
+                System.out.println(i4);
+            } else {
+                System.out.println(i5);
+            }
+            return d1;
         }
         // /Завдання №4
-        double q1, q2, q3, a2, b2, c2;
-        q1 = scan.nextDouble();
-        q2 = scan.nextDouble();
-        q3 = scan.nextDouble();
+
+       static double bigger(double q1, double q2, double q3){
+         double a2, b2, c2;
+
         a2 = q1;
         b2 = q2;
         c2 = q3;
@@ -50,117 +80,60 @@ public class HomeWork2 {
                 System.out.println(q3);
             }
         }
+           return a2;
+        }
         //Завдання №5
-        double w1, w2, w3, w4, a3, b3, c3, d3;
-        w1 = scan.nextDouble();
-        w2 = scan.nextDouble();
-        w3 = scan.nextDouble();
-        w4 = scan.nextDouble();
-        a3 = w1;
-        b3 = w2;
-        c3 = w3;
-        d3 = w3;
-        if (a3 > b3) {
-            if (a3 > c3) {
-                if (a3 < d3) {
-                    System.out.println(w1);
-                } else {
-                    if (a3 > b3) {
-                        if (a3 < c3) {
-                            if (a3 > d3) {
-                                System.out.println(w1);
-                            } else {
-                                if (a3 < b3) {
-                                    if (a3 > c3) {
-                                        if (a3 > d3) {
-                                            System.out.println(w1);
-                                        } else {
-                                            if (b3 > a3) {
-                                                if (b3 > c3) {
-                                                    if (b3 < d3) {
-                                                        System.out.println(w2);
-                                                    } else {
-                                                        if (b3 > a3) {
-                                                            if (b3 < c3) {
-                                                                if (b3 > d3) {
-                                                                    System.out.println(w2);
-                                                                } else {
-                                                                    if (b3 < a3) {
-                                                                        if (b3 > c3) {
-                                                                            if (b3 > d3) {
-                                                                                System.out.println(w2);
-                                                                            }
-                                                                        }
-                                                                    }
-                                                                }
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        } else {
-            if (c3 > a3) {
-                if (c3 > b3) {
-                    if (c3 < d3) {
-                        System.out.println(w3);
-                    } else {
-                        if (c3 > a3) {
-                            if (c3 < b3) {
-                                if (c3 > d3) {
-                                    System.out.println(w3);
-                                } else {
-                                    if (c3 < a3) {
-                                        if (c3 > b3) {
-                                            if (c3 > d3) {
-                                                System.out.println(w3);
-                                            } else {
-                                                if (d3 > a3) {
-                                                    if (d3 > c3) {
-                                                        if (d3 < b3) {
-                                                            System.out.println(w4);
-                                                        } else {
-                                                            if (d3 > a3) {
-                                                                if (d3 < c3) {
-                                                                    if (d3 > b3) {
-                                                                        System.out.println(w4);
-                                                                    } else {
-                                                                        if (d3 < a3) {
-                                                                            if (d3 > c3) {
-                                                                                if (d3 > b3) {
-                                                                                    System.out.println(w4);
 
-                                                                                }
-                                                                            }
-                                                                        }
-                                                                    }
-                                                                }
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
+    static int secondNumber(int i1, int i2, int i3, int i6) {
+        if (i1 > i2 && i1 > i3 && i1 > i6) {
+            if (i2 > i3 && i2 > i6) {
+                System.out.println("Друге за величино: " + i2);
+            }
+            if (i3 > i2 && i3 > i6) {
+                System.out.println("Друге за величино: " + i3);
+            }
+            if (i6 > i3 && i6 > i2) {
+                System.out.println("Друге за величино: " + i6);
             }
         }
+        if (i2 > i1 && i2 > i3 && i2 > i6) {
+            if (i1 > i3 && i1 > i6) {
+                System.out.println("Друге за величино: " + i2);
+            }
+            if (i3 > i1 && i3 > i6) {
+                System.out.println("Друге за величино: " + i3);
+            }
+            if (i6 > i3 && i6 > i1) {
+                System.out.println("Друге за величино: " + i6);
+            }
+        }
+        if (i3 > i1 && i3 > i2 && i3 > i6) {
+            if (i2 > i1 && i2 > i6) {
+                System.out.println("Друге за величино: " + i2);
+            }
+            if (i1 > i2 && i1 > i6) {
+                System.out.println("Друге за величино: " + i3);
+            }
+            if (i6 > i1 && i6 > i2) {
+                System.out.println("Друге за величино: " + i6);
+            }
+        }
+        if (i6 > i1 && i6 > i2 && i6 > i1) {
+            if (i2 > i3 && i2 > i1) {
+                System.out.println("Друге за величино: " + i2);
+            }
+            if (i3 > i2 && i3 > i1) {
+                System.out.println("Друге за величино: " + i3);
+            }
+            if (i1 > i3 && i1 > i2) {
+                System.out.println("Друге за величино: " + i6);
+            }
+        }
+        return i1;
+    }
         //Завдання 6
-        double a6, b6, c6, d6, r, x1, x2;
-        a6 = 6.45;
-        b6 = 5.21;
-        c6 = 3.33;
+        static double quadraticEquation(double a6,double b6,double c6){
+        double d6, r, x1, x2;
         d6 = (b6 * b6) - 4 * a6 * c6;
         r = Math.sqrt(d6);
         x1 = (-b6 - r) / 2 * a6;
@@ -172,7 +145,7 @@ public class HomeWork2 {
         }else {
             System.out.println("No");
         }
-
+        return(r);
     }
 }
 

@@ -2,7 +2,7 @@ package hw04;
 
 import java.util.Scanner;
 
-public class Zadanie1 {
+public class Task1 {
     public static void main(String[] args) {
         int i;
         long l = 1L;

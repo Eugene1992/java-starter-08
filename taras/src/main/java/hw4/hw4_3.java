@@ -5,14 +5,18 @@ import java.util.Scanner;
 /**
  * Created by Тарас on 13.07.2016.
  */
-public class hw4_3 {
+public class Hw4_3 {
     public static void main(String[] args) {
         //Завдання 3
         Scanner scan = new Scanner(System.in);
-        int a, b, d, c, r;
-        a = 1;
+        int b;
         System.out.println("Введіть числo");
         b = scan.nextInt();
+        denominator(b);
+    }
+        static int denominator(int b){
+        int a, d, c, r;
+        a = 1;
         d = 0;
         c = b;
         r = 1;
@@ -22,5 +26,6 @@ public class hw4_3 {
             if (d != 0) continue;
             System.out.println(a+ " ");
         }
+            return a;
     }
 }

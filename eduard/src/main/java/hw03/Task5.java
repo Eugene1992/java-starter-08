@@ -1,6 +1,6 @@
 package hw03;
 
-public class Zadanie5 {
+public class Task5 {
     public static void main(String[] args) {
         int a = 0;
         for(int i = 1; i <= 6765; i = i + a) {

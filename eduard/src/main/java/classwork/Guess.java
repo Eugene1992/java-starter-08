@@ -2,7 +2,7 @@ package classwork;
 
 import java.util.Scanner;
 
-public class Ugadajka {
+public class Guess {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int rand, steps = 0;
