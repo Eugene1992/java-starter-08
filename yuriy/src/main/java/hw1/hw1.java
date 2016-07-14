@@ -3,7 +3,7 @@ package hw1;
 /**
  * Created by Юра on 7/8/2016.
  */
-public class hw1 {
+public class Hw1 {
     public static void main(String[] args) {
         // Assign #1
         byte a1 = 127;
@@ -33,7 +33,6 @@ public class hw1 {
         long l3 = l1 + l2;
 
         // Assign #6
-
 
         // Assign #7
         // приведение типов http://developer.alexanderklimov.ru/android/java/types.php

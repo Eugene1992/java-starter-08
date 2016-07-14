@@ -3,13 +3,14 @@ package hw4;
 /**
  * Created by shast on 7/13/2016.
  */
-public class hw4_0 {
-    public static void main(String[] args) {
+public class Hw4_0 {
+    public static void main(String[] args) {  // можна упростити
+    chess();
+    }
 
+    static String chess() {
         for (int d = 1; d < 5; d++) { // початок загального циклу
-
             for (int c = 1; c < 5; c++) { // перші 4 строки повністю
-
                 for (int b = 1; b < 5; b++) { // перша строка повністю
                     for (int i = 1; i < 5; i++) {
                         System.out.print("Ж ");
@@ -20,9 +21,7 @@ public class hw4_0 {
                 }
                 System.out.println();
             }
-
             for (int c = 1; c < 5; c++) { // другі 4 строки
-
                 for (int b = 1; b < 5; b++) { // перша строка повністю
                     for (int i = 1; i < 5; i++) {
                         System.out.print("- ");
@@ -34,8 +33,10 @@ public class hw4_0 {
                 System.out.println();
             }
         }
+        return "-";
     }
 }
+
 
 
 

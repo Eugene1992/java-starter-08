@@ -2,7 +2,7 @@
  * Created by shast on 7/12/2016.
  */
 import java.util.Scanner;
-public class classwork_5 {
+public class Cw5_0 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner (System.in);
