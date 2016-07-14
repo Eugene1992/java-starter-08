@@ -24,7 +24,5 @@ public class Guess {
                 }
             }
         } while (win != true);
-
     }
-
 }

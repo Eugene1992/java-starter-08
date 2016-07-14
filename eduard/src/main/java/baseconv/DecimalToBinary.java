@@ -1,5 +1,4 @@
-package hw03;
-
+package baseconv;
 //import java.util.Scanner;
 
 public class DecimalToBinary {
