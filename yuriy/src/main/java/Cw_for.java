@@ -1,7 +1,7 @@
 /**
  * Created by shast on 7/11/2016.
  */
-public class for1 {
+public class Cw_for {
     public static void main(String[] args) {
         int start, end, step, sum;
 

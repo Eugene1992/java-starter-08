@@ -1,120 +1,49 @@
 package hw2; /**
  * Created by shast on 7/11/2016.
  */
-/**
- * Created by shast on 7/11/2016.
- */
 import java.util.Scanner;
-public class hw2_2 {
+public class Hw2_2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        double w1, w2, w3, w4, a3, b3, c3, d3;
-        w1 = scan.nextDouble();
-        w2 = scan.nextDouble();
-        w3 = scan.nextDouble();
-        w4 = scan.nextDouble();
-        a3 = w1;
-        b3 = w2;
-        c3 = w3;
-        d3 = w3;
-        if (a3 > b3) {
-            if (a3 > c3) {
-                if (a3 < d3) {
-                    System.out.println(w1);
-                } else {
-                    if (a3 > b3) {
-                        if (a3 < c3) {
-                            if (a3 > d3) {
-                                System.out.println(w1);
-                            } else {
-                                if (a3 < b3) {
-                                    if (a3 > c3) {
-                                        if (a3 > d3) {
-                                            System.out.println(w1);
-                                        } else {
-                                            if (b3 > a3) {
-                                                if (b3 > c3) {
-                                                    if (b3 < d3) {
-                                                        System.out.println(w2);
-                                                    } else {
-                                                        if (b3 > a3) {
-                                                            if (b3 < c3) {
-                                                                if (b3 > d3) {
-                                                                    System.out.println(w2);
-                                                                } else {
-                                                                    if (b3 < a3) {
-                                                                        if (b3 > c3) {
-                                                                            if (b3 > d3) {
-                                                                                System.out.println(w2);
-                                                                            }
-                                                                        }
-                                                                    }
-                                                                }
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        } else {
-            if (c3 > a3) {
-                if (c3 > b3) {
-                    if (c3 < d3) {
-                        System.out.println(w3);
-                    } else {
-                        if (c3 > a3) {
-                            if (c3 < b3) {
-                                if (c3 > d3) {
-                                    System.out.println(w3);
-                                } else {
-                                    if (c3 < a3) {
-                                        if (c3 > b3) {
-                                            if (c3 > d3) {
-                                                System.out.println(w3);
-                                            } else {
-                                                if (d3 > a3) {
-                                                    if (d3 > c3) {
-                                                        if (d3 < b3) {
-                                                            System.out.println(w4);
-                                                        } else {
-                                                            if (d3 > a3) {
-                                                                if (d3 < c3) {
-                                                                    if (d3 > b3) {
-                                                                        System.out.println(w4);
-                                                                    } else {
-                                                                        if (d3 < a3) {
-                                                                            if (d3 > c3) {
-                                                                                if (d3 > b3) {
-                                                                                    System.out.println(w4);
+        int a1, a2, a3, b1, b2, b3;
+        System.out.print("Введіть першу змінну: ");
+        a1 = scan.nextInt();
+        System.out.print("Введіть другу змінну: ");
+        a2 = scan.nextInt();
+        System.out.print("Введіть третю змінну: ");
+        a3 = scan.nextInt();
 
-                                                                                }
-                                                                            }
-                                                                        }
-                                                                    }
-                                                                }
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
+        maxValue(a1, a2, a3);
+    }
+    static int maxValue(int a1, int a2, int a3) {
+        int b1, b2, b3;
+        b1 = a1;
+        b2 = a2;
+        b3 = a3;
+        if (b1 > b2) {
+            if (b1 > b3) {
+                System.out.println("Максимальне значення: " + a1);
+            }
+            }if (b2 > b1) {
+                if (b2 > b3) {
+                    System.out.println("Максимальне значення: " + a2);
+            }
+            }else{
+                if (b3 > b1){
+                    if (b3 > b2){
+                        System.out.println("Максимальне значення: " + a3);
                     }
                 }
-            }
-        }
+        }return b1;
     }
 }
+
+
+
+
+
+
+
 
 
 
