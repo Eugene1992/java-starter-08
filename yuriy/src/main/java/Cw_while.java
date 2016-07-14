@@ -1,7 +1,7 @@
 /**
  * Created by shast on 7/11/2016.
  */
-public class while1 {
+public class Cw_while {
     public static void main(String[] args) {
         int i, i1, b;
         String res = "";

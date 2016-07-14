@@ -2,7 +2,7 @@
  * Created by shast on 7/12/2016.
  */
 import java.util.Scanner;
-public class classwork_5_1 {
+public class Cw5_1 {
     public static void main(String[] args) {
         int stop, step, sum, s;
 
