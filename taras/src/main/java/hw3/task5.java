@@ -18,11 +18,11 @@ public class Task5 {
             r = 1;
             String res = "";
             for (int i = a; r < end; i = a + b) {
-                sum = a + b;
-                b = a;
-                a = sum;
-                System.out.println(i + " ");
-                r++;
+                    sum = a + b;
+                    b = a;
+                    a = sum;
+                    System.out.println(i + " ");
+                    r++;
             }
             return end;
         }
