@@ -18,7 +18,9 @@ public class Hw2_5 {
         System.out.println("Введість знак арифметичної операції: ");
         String i2 = scan.next();
 
-        //switch (i2){
+        switch (i2){
+            case "+":
+        }
 
         }
     }
