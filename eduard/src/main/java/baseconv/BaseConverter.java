@@ -1,7 +1,5 @@
-package hw03;
-
+package baseconv;
 import java.util.Scanner;
-import hw03.DecimalToBinary;
 
 public class BaseConverter {
     public static void main(String[] args) {
@@ -13,6 +11,5 @@ public class BaseConverter {
         System.out.println("Для выбора двоичной, введите b");
         System.out.println("Для выбора восьмеричной, введите o");
         System.out.println("Для выбора шестнадцатеричной, введите h");
-
     }
 }
