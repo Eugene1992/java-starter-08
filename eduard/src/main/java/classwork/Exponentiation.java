@@ -1,8 +1,5 @@
 package classwork;
 
-/**
- * Created by edikf on 13.07.2016.
- */
 public class Exponentiation {
     public static void main(String[] args) {
 
