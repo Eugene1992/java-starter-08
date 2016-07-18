@@ -2,6 +2,12 @@ package hw02;
 
 public class Task6 {
     public static void main(String[] args) {
+        System.out.println("Task 6");
+        System.out.println();
+        makeSqrRoot();
+
+    }
+    public static void makeSqrRoot(){
         double a, b, c, d, e, f, g;
         a = 1;
         b = 9.6;

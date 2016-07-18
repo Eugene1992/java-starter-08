@@ -2,7 +2,13 @@ package hw01;
 
 public class BinaryCalc {
     public static void main(String[] args) {
-        int i = 111_1111;
+        System.out.println("Binary Calculator");
+        convToDecimal();
+    }
+
+    public static void convToDecimal() {
+
+        int i = 111_1101;
         int b0, b1, b2, b3, b4, b5, b6, b7, res = 0;
         b7 = i / 10000000;
         b6 = i / 1000000 % 10;
@@ -12,14 +18,6 @@ public class BinaryCalc {
         b2 = i / 100 % 10;
         b1 = i / 10 % 10;
         b0 = i % 10;
-        System.out.print(b7);
-        System.out.print(b6);
-        System.out.print(b5);
-        System.out.print(b4);
-        System.out.print(b3);
-        System.out.print(b2);
-        System.out.print(b1);
-        System.out.print(b0);
 
         res = res + b0 + b1 * 2 + b2 * 4 + b3 * 8 + b4 * 16 + b5 * 32 + b6 * 64 + b7 * 128;
         System.out.println();

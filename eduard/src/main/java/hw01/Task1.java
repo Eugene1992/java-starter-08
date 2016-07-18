@@ -2,6 +2,12 @@ package hw01;
 
 public class Task1 {
     public static void main(String[] args) {
+        System.out.println("Task1");
+        System.out.println();
+        makeNumbers();
+    }
+
+    public static void makeNumbers() {
         /*
         Инициализировать переменную типа byte результатом суммы двух любых чисел
          */
@@ -44,7 +50,7 @@ public class Task1 {
         /*
         Переменной типа int передать результат деления двух short, умноженных на результат деления двух byte
          */
-         i = ((s / s1) * (b / b1));
+        i = ((s / s1) * (b / b1));
         System.out.println(i);
         /*
         Поменять значения двух целочисленных переменных используя третью
@@ -58,6 +64,8 @@ public class Task1 {
         l = l1 = 568997L;
         System.out.println(l);
         System.out.println(l1);
+
+
     }
 
 }

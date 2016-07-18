@@ -4,6 +4,14 @@ import java.util.Scanner;
 
 public class Task4 {
     public static void main(String[] args) {
+        System.out.println("Task 4");
+        System.out.println();
+        findOutNum();
+
+    }
+
+    public static void findOutNum() {
+
         /* Для ввода с консоли
 
         Scanner scan = new Scanner(System.in);
@@ -29,5 +37,6 @@ public class Task4 {
             }
 
         }
+
     }
 }

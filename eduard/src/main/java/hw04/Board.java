@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class Board {
     public static void main(String[] args) {
+        System.out.println("Board");
+        System.out.println();
+        makeBoard();
+    }
+    public static void makeBoard() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Задайте размер доски: ");
         if (scan.hasNextInt()) {
@@ -18,7 +23,5 @@ public class Board {
                 System.out.println();
             }
         }
-
     }
-
 }

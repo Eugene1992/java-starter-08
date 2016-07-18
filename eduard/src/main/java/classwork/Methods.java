@@ -7,9 +7,12 @@ public class Methods {
     }
 
     public static int getSomeInt() {
+
         return 5;
     }
     public static String getSomeString () {
+
+
         return "Kotov";
     }
 }

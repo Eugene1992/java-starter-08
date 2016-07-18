@@ -4,9 +4,15 @@ import java.util.Scanner;
 
 public class Task2 {
     public static void main(String[] args) {
+        System.out.println("Task 2");
+        System.out.println("Введите число:");
+        findOutDividers();
+    }
+    public static void findOutDividers() {
+
         int i;
         Scanner scan = new Scanner(System.in);
-        System.out.println("Введите число:");
+        //System.out.println("Введите число:");
         if (scan.hasNextInt()) {
             i = scan.nextInt();
             System.out.println("Делителями числа " + i + " являются:");
